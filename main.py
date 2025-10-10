@@ -456,18 +456,31 @@
 
 
 # https://leetcode.com/problems/maximum-number-of-words-you-can-type/?envType=daily-question&envId=2025-09-15
-class Solution:
-    def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
-        text = text.split()
-        a = 0
-        for i in text:
-            for j in brokenLetters:
-                if j in i:
-                    break
-            else:
-                a += 1
+# class Solution:
+#     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
+#         text = text.split()
+#         a = 0
+#         for i in text:
+#             for j in brokenLetters:
+#                 if j in i:
+#                     break
+#             else:
+#                 a += 1
+#
+#         return a
+#
+#
+# print(Solution().canBeTypedWords(text="leet code", brokenLetters="lt"))
 
-        return a
+# a = "olma"
+# b = "anor"
+# c = "Namangan5"
+#
+# print(a, b, c)
 
-
-print(Solution().canBeTypedWords(text="leet code", brokenLetters="lt"))
+#
+# a = 19
+# b = 23
+# c = 30
+#
+# print(a+b+c)
