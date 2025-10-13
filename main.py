@@ -16,6 +16,7 @@
 #
 # print(Solution().searchInsert(nums=[1,3,5,6], target=5))
 # from typing import List
+from os.path import split
 
 # from Tools.scripts.pathfix import keep_flags
 
@@ -471,16 +472,3 @@
 #
 #
 # print(Solution().canBeTypedWords(text="leet code", brokenLetters="lt"))
-
-# a = "olma"
-# b = "anor"
-# c = "Namangan5"
-#
-# print(a, b, c)
-
-#
-# a = 19
-# b = 23
-# c = 30
-#
-# print(a+b+c)
