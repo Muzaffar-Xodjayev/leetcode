@@ -2,6 +2,7 @@
 from typing import List
 
 
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         min_price = prices[0]
@@ -13,6 +14,8 @@ class Solution:
 
             profit = max(profit, i - min_price)
         return profit
+
+
 
 
 s1 = Solution()
